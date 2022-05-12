@@ -1,7 +1,7 @@
 {
   "name": "luckypig3400.cordova.osgb",
   "displayName": "OSGB-離線小遊戲盒",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "OSGB - Offline Small Games Box A simple Android App built with Apache Cordova.",
   "main": "index.js",
   "scripts": {
