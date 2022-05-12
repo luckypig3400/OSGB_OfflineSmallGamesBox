@@ -1,7 +1,7 @@
 {
-  "name": "io.cordova.hellocordova",
-  "displayName": "HelloCordova",
-  "version": "1.0.0",
+  "name": "luckypig3400.cordova.osgb",
+  "displayName": "OSGB-離線小遊戲盒",
+  "version": "1.0.2",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
   "scripts": {
