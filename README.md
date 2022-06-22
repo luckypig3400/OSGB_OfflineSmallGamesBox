@@ -1,6 +1,35 @@
 # OSGB_OfflineSmallGamesBox
  OSGB-OfflineSmallGamesBox Android App project for app102 course
 
+## 最終成品
+### [影片介紹](https://drive.google.com/drive/folders/1Wgoo9jEvUHA7wmcM3SpSBd8rJSQHi8bA?usp=sharing)
+### [最終版APK檔案](https://drive.google.com/drive/folders/1Wgj5p0vv5j078GGDb01hH3oJwKlUj2Jk?usp=sharing)
+
+## 安裝方式(建置專案步驟)
+1. 請先確定您的電腦上有安裝[Node.js](https://nodejs.org/en/)
+
+2. 請於Command Line執行以下指令安裝Cordova執行套件
+```
+npm install -g cordova
+```
+
+3. cd 進入```OSGB_cordovaPack```後執行以下指令來安裝專案相依套件
+```
+npm install
+```
+
+4. 請參考[Cordova官方Android編譯環境安裝指南](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)，**仔細的一步步將 JDK、Gradle與Android SDK變數設定好!**
+
+5. 接著執行以下指令來設定Android專案打包設定
+```
+cordova platform add android
+```
+
+6. 最後執行以下指令來建置專案
+```
+cordova build android
+```
+
 ## Game List (預計要整合為App的小遊戲)
 
 + [Core Protection](https://github.com/hakimel/Core)
